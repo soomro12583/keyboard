@@ -1,15 +1,38 @@
-P.one{
+
+
+
+/*P.one{
     border: 1px solid black;
     background-color: aquamarine;
     text-align: center;
-}
+}*/
 
-h1 {
-    background-color: blue;
-}
+
 body{
     background-image: url(image\ one.webp);
     background-repeat:no-repeat;
     background-attachment:  fixed;
     background-size: 100%
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+   
+}
+
+.navbar ul li{
+    width: 200px;
+    float: left;
+    
 }
