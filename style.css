@@ -9,6 +9,7 @@
 
 
 body{
+    margin-top: 0;
     background-image: url(image\ one.webp);
     background-repeat:no-repeat;
     background-attachment:  fixed;
@@ -16,6 +17,9 @@ body{
 }
 
 .navbar{
+    justify-content: center;
+    display: flex;   
+    align-items: center;
     width: 100%;
     height: 80px;
     background-color: aquamarine;
@@ -26,13 +30,37 @@ body{
 }
 
 .navbar ul li a{
+    background-color: #fff;
     text-decoration: none;
     text-transform: uppercase;
    
+}
+
+..navbar ul li a:hover{
+    color: blue;
 }
 
 .navbar ul li{
     width: 200px;
     float: left;
     
+}
+
+.main{
+    background-image: url(./download.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.one,.two{
+    width: 700px;
+    height: 300px;
+    border: 2px solid blueviolet;
 }
